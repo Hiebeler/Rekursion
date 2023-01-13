@@ -2,21 +2,20 @@
 {
     static void Main(string[] args)
     {
-        Console.Write(faculty(5));
     }
 
-    public static int faculty(int number)
+    public static int Faculty(int number)
     {
         if (number == 1)
             return number;
-        return number * faculty(number - 1);
+        return number * Faculty(number - 1);
     }
-    public static int Fibonacci(int n)
+
+    public static int Fibonacci(int number)
     {
-        if (n <= 2)
+        if (number <= 2)
             return 1;
-        else
-            return Fibonacci(n - 1) + Fibonacci(n - 2);
+        return Fibonacci(number - 1) + Fibonacci(number - 2);
     }
 
 }
