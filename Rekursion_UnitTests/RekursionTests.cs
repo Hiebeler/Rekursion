@@ -12,8 +12,8 @@ namespace Rekursion_UnitTests
         [Test]
         public void faculty_FixNumber_ReturnsCorrectFaculty()
         {
-            int faculty5= Program.faculty(5);
-            int faculty6= Program.faculty(6);
+            int faculty5= Rekursion.faculty(5);
+            int faculty6= Rekursion.faculty(6);
             Assert.AreEqual(faculty5, 120);
             Assert.AreEqual(faculty6, 720);
         }
@@ -21,8 +21,8 @@ namespace Rekursion_UnitTests
         [Test]
         public void Fibonacci_FixNumber_ReturnsCorrectFibonacci()
         {
-            int faculty5 = Program.Fibonacci(5);
-            int faculty6 = Program.Fibonacci(10);
+            int faculty5 = Rekursion.Fibonacci(5);
+            int faculty6 = Rekursion.Fibonacci(10);
             Assert.AreEqual(faculty5, 5);
             Assert.AreEqual(faculty6, 55);
         }

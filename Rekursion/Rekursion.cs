@@ -1,4 +1,4 @@
-﻿public class Program
+﻿public class Rekursion
 {
     static void Main(string[] args)
     {
